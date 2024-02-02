@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Registratsiya</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-primary text-center mt-5">Registratsiya</h1>
+        <form class="border p-5 w-50 mx-auto" id="form">
+            <div class="mb-3">
+                <label for="firstname" class="form-label">Ismingizni Kiriting*</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="mb-3">
+                <label for="lastname" class="form-label">Familyangizni Kiriting*</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+            <div class="mb-3">
+                <label for="year" class="form-label">Tug'ilgan Yilingizni Kiriting*</label>
+                <input type="date" class="form-control" id="year">
+            </div>
+            <div class="mb-3">
+                <label for="Username" class="form-label">Foydalanuvchi Nomini Kiriting*</label>
+                <input type="text" class="form-control" id="Username">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Elektraon Pochtangizni Kiriting*</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Password</label>
+                <input type="password" placeholder="Password" id="pwd" class="masked" name="password" />
+                <button type="button" id="eye">
+                    <img src="https://cdn0.iconfinder.com/data/icons/feather/96/eye-16.png" alt="eye" />
+                </button>
+            </div>
+
+            <div class="mb-3">
+                <label for="repwd">Password</label>
+                <input type="password" placeholder="Password" id="repwd" class="maskeds" name="repassword" />
+                <button type="button" id="eyee">
+                    <img src="https://cdn0.iconfinder.com/data/icons/feather/96/eye-16.png" alt="eye" />
+                </button>
+            </div>
+
+
+            
+            <a href="./kirish.html" type="submit" class="btn btn-primary">Registratsiya</a>
+            <a href="./kirish.html" type="submit" class="btn btn-danger">Kirish</a>
+
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../js/registr.js" type="module"></script>
+</body>
+
+</html>
